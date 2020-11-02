@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController(Hook)<UIViewControllerTransitioningDelegate>
-
++(void)loadHook;
 @end
 
 NS_ASSUME_NONNULL_END
